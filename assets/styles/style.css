@@ -1,0 +1,23 @@
+.header {
+  border: 1px solid red;
+  background-color: #9c7e6e;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 110px;
+}
+.header_main {
+  display: flex;
+  align-items: center;
+}
+.nav_ul {
+  display: flex;
+  padding: 1px;
+}
+.li {
+  list-style-type: none;
+}
+.a {
+  text-decoration: none;
+  padding: 3px;
+}
