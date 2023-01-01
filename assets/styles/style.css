@@ -21,13 +21,16 @@
   padding: 3px;
 }
 .main {
-  border: 5px solid salmon;
+  background-color: #ceb0a0;
   display: flex;
   height: 80vh;
+  align-items: center;
+  justify-content: space-around;
 }
-.main_header {
+.main_h {
   display: flex;
   flex-direction: column;
+  gap: 2em;
 }
 .button {
   background-color: black;
@@ -35,4 +38,20 @@
   border-radius: 30px;
   width: 452px;
   height: 56px;
+  padding: 17px, 200px, 17px, 200px;
+}
+h1 {
+  color: white;
+}
+h2 {
+  color: #664535;
+}
+.footer_flex {
+  background-color: #9c7e6e;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+.footer_nav {
+  text-decoration: none;
 }
