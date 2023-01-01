@@ -1,5 +1,4 @@
 .header {
-  border: 1px solid red;
   background-color: #9c7e6e;
   display: flex;
   align-items: center;
@@ -20,4 +19,20 @@
 .a {
   text-decoration: none;
   padding: 3px;
+}
+.main {
+  border: 5px solid salmon;
+  display: flex;
+  height: 80vh;
+}
+.main_header {
+  display: flex;
+  flex-direction: column;
+}
+.button {
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  width: 452px;
+  height: 56px;
 }
